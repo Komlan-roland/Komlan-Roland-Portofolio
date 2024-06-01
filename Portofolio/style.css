@@ -1,0 +1,587 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  padding-bottom: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  padding-inline: 8%;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-block: 40px;
+  align-items: center;
+  overflow: hidden;
+}
+header nav .logo {
+  font-size: 20px;
+}
+header nav ul li {
+  display: inline-block;
+  padding-inline-start: 30px;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav a {
+  color: #000;
+}
+header nav a:hover {
+  color: #353535;
+  border-bottom: 3px solid #353535;
+  transition: all 0.2s;
+}
+header nav #closeMenu,
+header nav #openMenu {
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+header .main {
+  margin-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+}
+header .main #aboutMe {
+  text-align: center;
+  width: 40%;
+}
+header .main #aboutMe h1 {
+  font-size: 40px;
+}
+header .main #aboutMe h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+header .main #aboutMe h3 {
+  font-size: 20px;
+}
+header .main #aboutMe :is(h3, h2) {
+  color: #353535;
+}
+header .main #aboutMe * {
+  padding-block: 5px;
+}
+header .main #aboutMe .cvInfo {
+  gap: 30px;
+}
+header .main #aboutMe .cvInfo .cv {
+  border: 1px solid #353535;
+  color: #353535;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-inline-end: 10px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+header .main #aboutMe .cvInfo .cv:hover {
+  color: #fff;
+  background-color: #353535;
+}
+header .main #aboutMe .cvInfo .contact {
+  border: 1px solid #353535;
+  color: #fff;
+  background-color: #353535;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-inline-start: 10px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+header .main #aboutMe .cvInfo .contact:hover {
+  background-color: #000;
+}
+header .main #aboutMe .social_media a {
+  margin-inline: 5px;
+}
+header .main #aboutMe .social_media a :hover {
+  transform: scale(1.2);
+  transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 0.5s;
+}
+header .main #aboutMe .social_media img {
+  width: 35px;
+}
+
+[data-aos] {
+  overflow-x: hidden;
+}
+
+.about {
+  padding-inline: 8%;
+  padding-block: 5rem;
+  text-align: center;
+}
+.about h1 {
+  font-size: 30px;
+}
+.about .small {
+  font-size: 12px;
+}
+.about .center {
+  margin-bottom: 0.5rem;
+}
+.about .img_about {
+  width: 20%;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+}
+.about .presentation {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.about .presentation img {
+  width: 30px;
+}
+.about .presentation .experience {
+  padding-block: 30px;
+  border-radius: 15px;
+  width: 40%;
+  padding-inline: 10px;
+  height: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.about .presentation .experience h3 {
+  margin-bottom: 5px;
+}
+.about .presentation .education {
+  text-align: center;
+  padding-block: 30px;
+  border-radius: 15px;
+  height: 100px;
+  width: 40%;
+  padding-inline: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.about .presentation .education h3 {
+  margin-bottom: 5px;
+}
+.about .presentation .education p {
+  width: 99%;
+  text-wrap: balance;
+}
+.about .info {
+  text-align: justify;
+  margin-block: 2rem;
+}
+.about .info p {
+  font-size: 25px;
+}
+
+.knowledge {
+  padding-inline: 8%;
+}
+.knowledge .small {
+  font-size: 12px;
+}
+.knowledge .center {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.knowledge h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+.knowledge .exp_pres {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.knowledge .exp_pres .webdev {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.knowledge .exp_pres .webdev ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+.knowledge .exp_pres .webdev li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.knowledge .exp_pres .webdev img {
+  width: 35px;
+}
+.knowledge .exp_pres .webdev h2 {
+  text-align: center;
+  color: #353535;
+  margin-bottom: 1rem;
+}
+.knowledge .exp_pres .accounting {
+  border-radius: 15px;
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.knowledge .exp_pres .accounting img {
+  width: 35px;
+}
+.knowledge .exp_pres .accounting h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #353535;
+}
+.knowledge .exp_pres .accounting ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 6px;
+}
+.knowledge .exp_pres .accounting li {
+  display: flex;
+  gap: 1rem;
+  flex-basis: 50%;
+  align-items: center;
+}
+.knowledge .exp_pres .accounting li .cash {
+  width: 50%;
+}
+
+.projects {
+  padding: 8%;
+  text-align: center;
+}
+.projects .small {
+  font-size: 12px;
+}
+.projects h1 {
+  margin-bottom: 1.5rem;
+}
+.projects .projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 30px;
+  margin-bottom: 2rem;
+}
+.projects .projects-list figure {
+  margin-inline: auto;
+  border: 2px solid #353535;
+  border-radius: 20px;
+  width: 80%;
+  padding: 30px;
+}
+.projects .projects-list figure img {
+  width: 80%;
+  border-radius: 20px;
+}
+.projects .projects-list figure a {
+  display: inline-block;
+  color: #000;
+  border: 2px solid #353535;
+  border-radius: 20px;
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  margin-inline-end: 20px;
+}
+.projects .projects-list figure a:hover {
+  color: #fff;
+  background-color: #353535;
+  transition: ease-in-out 0.5s;
+}
+.projects .projects-list figure h2:not(.project4) {
+  margin: 25px 0 15px 0;
+}
+.projects .more-projects {
+  border: 1px solid #353535;
+  color: #000;
+  width: 120px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  height: 40px;
+  line-height: 40px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+.projects .more-projects:hover {
+  color: #fff;
+  background-color: #353535;
+}
+
+.contact-form {
+  background-color: #2F2F2F;
+  padding-block: 2rem;
+  color: #fff;
+}
+.contact-form h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.contact-form .small {
+  font-size: 12px;
+  text-align: center;
+}
+.contact-form form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin-inline: auto;
+}
+.contact-form form span,
+.contact-form form button {
+  display: block;
+}
+.contact-form form input {
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  padding: 0 15px;
+  border: 1px solid #353535;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #282828;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.contact-form form textarea {
+  border-radius: 5px;
+  border: 1px solid #353535;
+  padding: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #282828;
+  color: #fff;
+}
+.contact-form form button {
+  margin: 1rem 0;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #353535;
+  background-color: #282828;
+  font-size: 16px;
+}
+.contact-form form button:hover {
+  color: #fff;
+  background-color: #353535;
+  transition: ease-in-out 0.5s;
+  border: 1px solid #353535;
+}
+
+.rights {
+  background-color: #2F2F2F;
+  color: #fff;
+  padding: 10px 8%;
+  text-align: center;
+  height: 100%;
+}
+
+.goToTop {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+}
+.goToTop i {
+  font-size: 30px;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  cursor: pointer;
+}
+.goToTop i:hover {
+  color: #353535;
+  background-color: #fff;
+  border: 1px solid #353535;
+}
+
+@media screen and (945px < width < 985px) {
+  .knowledge .exp_pres .webdev ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+  }
+}
+@media screen and (width < 956px) {
+  .projects .projects-list {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+@media screen and (866px < width < 945px) {
+  .knowledge .exp_pres .accounting ul {
+    gap: 16.8px;
+  }
+}
+@media screen and (width < 919px) {
+  header .main #aboutMe h1 {
+    font-size: 35px;
+  }
+  header .main #aboutMe h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (width < 800px) {
+  header .main #aboutMe h1 {
+    font-size: 25px;
+  }
+  header .main #aboutMe h2 {
+    font-size: 18px;
+  }
+  header .main #aboutMe .cvInfo .cv {
+    margin-inline-end: 5px;
+    width: 110px;
+  }
+  header .main #aboutMe .cvInfo .contact {
+    margin-inline-start: 5px;
+    width: 100px;
+  }
+}
+@media screen and (866px < width < 925px) {
+  .projects .projects-list figure a {
+    margin-inline-end: 10px;
+  }
+}
+@media screen and (width < 768px) {
+  .about .img_about {
+    width: 130px;
+  }
+}
+@media screen and (width < 749px) {
+  header .main {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  header .main .image {
+    text-align: center;
+    margin-top: 0;
+  }
+  header .main .image img {
+    width: 60%;
+    margin: auto;
+  }
+  header .main #aboutMe {
+    width: 100%;
+  }
+  header .main #aboutMe .social_media img {
+    font-size: 20px;
+  }
+  header .main #aboutMe * {
+    padding-block: 2px;
+  }
+}
+@media (max-width: 685px) {
+  header {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+  header nav ul {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 70%;
+    height: 88.5%;
+    position: absolute;
+    right: -70%;
+    top: 0;
+    padding-top: 70px !important;
+    transition: right 0.5s;
+  }
+  header nav ul li {
+    display: block;
+    padding-block: 15px;
+  }
+  header nav ul li a {
+    color: #fff;
+  }
+  header nav ul li a:hover {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+  }
+  header nav #openMenu {
+    display: block;
+  }
+  header nav #closeMenu {
+    z-index: 2;
+    display: none;
+  }
+}
+@media screen and (765px < width < 867px) {
+  .projects .projects-list figure a {
+    margin-inline-end: 5px;
+    width: 100px;
+  }
+}
+@media screen and (width < 492px) {
+  .knowledge .exp_pres .accounting ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+}
+@media screen and (width < 455px) {
+  .about .presentation {
+    flex-direction: column;
+  }
+  .about .presentation .experience,
+  .about .presentation .education {
+    width: 80%;
+    margin: auto;
+  }
+  .projects .projects-list figure a {
+    margin-inline-end: 10px;
+    width: 100px;
+  }
+  .contact-form form {
+    width: 80%;
+  }
+}
+@media screen and (width < 372px) {
+  .projects .projects-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .projects .projects-list figure {
+    margin: auto;
+    width: 70%;
+  }
+  .projects .projects-list figure a {
+    width: 80px;
+    margin-inline-end: 2px;
+  }
+}
+@media screen and (width < 360px) {
+  .knowledge .exp_pres .webdev,
+  .knowledge .exp_pres .accounting {
+    width: 65%;
+  }
+  .knowledge .exp_pres .webdev ul,
+  .knowledge .exp_pres .accounting ul {
+    gap: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
