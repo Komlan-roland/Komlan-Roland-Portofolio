@@ -4,7 +4,7 @@ Welcome to my portofolio website! This website showcases my experience as a fron
 ## About Me 
 I am a self-taught frontend developer and accounting assistant with experience in both fields. I'm passionate about web development and have learned a variety of programming and markup languages and frameworks through online tutorials, courses and personal projects.
 
-[https://komlan-roland-portofolio.netlify.app](https://komlan-roland-portofolio.netlify.app)
+Website: [https://komlan-roland-portofolio.netlify.app](https://komlan-roland-portofolio.netlify.app)
 
 ## Features
 - About: Learn about komlan roland' skills, experience, and passion for web development ans accounting.
