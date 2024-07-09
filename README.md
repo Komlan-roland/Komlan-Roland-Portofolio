@@ -7,7 +7,7 @@ I am a self-taught frontend developer and accounting assistant with experience i
 Website: [https://komlan-roland-portofolio.netlify.app](https://komlan-roland-portofolio.netlify.app)
 
 ## Features
-- About: Learn about komlan roland' skills, experience, and passion for web development ans accounting.
+- About: Learn about komlan roland' skills, experience, and passion for web development and accounting.
   
 - Experience: Explore Komlan roland's expertise in frontend development ans accounting, including his proficiency in HTML, CSS, JavaScript, SASS, Bootstrap, Git and Github.
   
