@@ -1,10 +1,9 @@
 # Komlan Roland's Portofolio
-Welcome to my portofolio website! This website showcases my experience as a frontend developer ans accounting assistant
-
+Welcome to my portfolio website! This website showcases my experience as a frontend developer and accounting assistant.
 ## About Me 
-I am a self-taught frontend developer and accounting assistant with experience in both fields. I'm passionate about web development and have learned a variety of programming and markup languages and frameworks through online tutorials, courses and personal projects.
+I am a self-taught frontend developer and accounting assistant with experience in both fields. I'm passionate about web development and have learned a variety of programming and markup languages and frameworks through online tutorials, courses and personal projects. Currently i am pursuing a master's degree in governance and public management at Senghor University of Alexandria.
 
-Website: [https://komlan-roland-portofolio.netlify.app](https://komlan-roland-portofolio.netlify.app)
+Website: [https://komlan-roland-portfolio.netlify.app](https://komlan-roland-portofolio.netlify.app)
 
 ## Features
 - About: Learn about komlan roland' skills, experience, and passion for web development and accounting.
