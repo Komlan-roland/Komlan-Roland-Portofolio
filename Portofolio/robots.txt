@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /*.pdf$
+Disallow: /admin/
+Disallow: /comments/
+Disallow: /trackback/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /backup/
+
+Sitemap: https://komlan-roland-portofolio.netlify.app/sitemap.xml
